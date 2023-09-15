@@ -244,7 +244,7 @@ body {
   border-radius: 6px;
 }
 
-.card p{
+.card {
   font-size: 13px;
   font-weight: bold;
 }
@@ -302,13 +302,17 @@ body {
   font-size: 3em;
   font-weight: bold;
 }
-.movie-detail-text p{
+.movie-detail-text h2 span{
+  font-size: 1em;
+  font-weight: bold;
+}
+.movie-detail-text span{
   line-height: 20px;
   font-size: 13px;
   font-weight: bold;
 }
 
-.movie-detail-text .movie-overview span {
+.movie-detail-text .movie-overview p {
   font-size: 1.2em;
   font-weight: bold;
 }

@@ -10,18 +10,24 @@ import axios  from 'axios'
 
 function Select() {
     const [ posts, setPosts ] = useState([])
+    const [loading, setLoading] = useState(true)
+    const [error, setError] = useState(false)
     
 
     useEffect(() => {
+        setLoading(false)
         let APIUrl = "https://api.themoviedb.org/3/trending/movie/day?api_key=9ea3e26c3fe15640782a8ab5434a1bfe"
         axios.get(APIUrl)
             .then((response) =>  { setPosts(response.data.results)} )
-            .catch(err => console.log(err))
+            .catch(err => { console.log(err); setError(err.message)})
     }, [])
     
     
         console.log([posts]);
     return(
+        <div>
+        
+        {loading ? <h1 className='loading'>LOADING...</h1> :
         <div className='feature-wrapper'>
             <div className='feature-div'>
                 <div className='feature-header'>
@@ -39,6 +45,8 @@ function Select() {
                 })}
 
             </div>
+        </div>} <p className="d-flex">{error}</p>
+        
         </div>
     )
   

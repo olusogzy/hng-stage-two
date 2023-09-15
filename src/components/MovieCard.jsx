@@ -15,8 +15,8 @@ function MovieCard({poster_path, title, release_date, id}) {
                 {/* <img src={Favorite} alt='favorite' className='favorite'></img> */}
                 <button className='favorite'></button>
                 <img src={getPosterUrl} alt={title} data-testid="movie-poster"></img>
-                <p data-testid="movie-release-date">{release_date} </p>
-                <h4 className='none-margin' data-testid="movie-title">{title}</h4>
+                <p ><span data-testid="movie-release-date">{release_date}</span> </p>
+                <h4 className='none-margin' ><span data-testid="movie-title">{title}</span> </h4>
             </Link>        
             </div>
         </div>
