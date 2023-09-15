@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.3261cbe8.css",
+    "main.js": "/react-gh-pages/static/js/main.e3b251f6.js",
+    "static/js/787.7c42db31.chunk.js": "/react-gh-pages/static/js/787.7c42db31.chunk.js",
+    "static/media/Poster.png": "/react-gh-pages/static/media/Poster.a37f7a10b6a2578ccf01.png",
+    "static/media/tv.svg": "/react-gh-pages/static/media/tv.a1b31e114a73370de096cb8c3592fcdb.svg",
+    "static/media/Pngitem.svg": "/react-gh-pages/static/media/Pngitem.64379df597a9c378a828a7b8b06ae8b4.svg",
+    "static/media/IMDB.svg": "/react-gh-pages/static/media/IMDB.c4d6d85a37edc2a52d437a7fcf06b597.svg",
+    "static/media/instagram.svg": "/react-gh-pages/static/media/instagram.794ef71746e68a05820d765b18bdda17.svg",
+    "static/media/twitter.svg": "/react-gh-pages/static/media/twitter.84de3c70e88d1b85e38b5e219932ea4d.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "static/media/Favorite.svg": "/react-gh-pages/static/media/Favorite.ade34e4d523009c588b12d41a76d3d1f.svg",
+    "static/media/facebook.svg": "/react-gh-pages/static/media/facebook.dc180733500d2b57f6a30dee3a6852e4.svg",
+    "static/media/youtube.svg": "/react-gh-pages/static/media/youtube.b7112518aaeda3e5c3eef3b1cbcccddb.svg",
+    "static/media/Menu.svg": "/react-gh-pages/static/media/Menu.3be9d2a7c9db1a8f05081ecac0b644b7.svg",
+    "static/media/Play.svg": "/react-gh-pages/static/media/Play.54d9d33850e26b93a772122a686db4c8.svg",
+    "static/media/Search.svg": "/react-gh-pages/static/media/Search.9786d0704315885553ccd893781edaf9.svg",
+    "static/media/arrow.svg": "/react-gh-pages/static/media/arrow.455719b84e1ba2831254ade69e39996c.svg",
+    "main.3261cbe8.css.map": "/react-gh-pages/static/css/main.3261cbe8.css.map",
+    "main.e3b251f6.js.map": "/react-gh-pages/static/js/main.e3b251f6.js.map",
+    "787.7c42db31.chunk.js.map": "/react-gh-pages/static/js/787.7c42db31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3261cbe8.css",
+    "static/js/main.e3b251f6.js"
+  ]
+}
