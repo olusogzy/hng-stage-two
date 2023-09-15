@@ -45,7 +45,7 @@ function Select() {
                 })}
 
             </div>
-        </div>} <p className="d-flex">{error}</p>
+        </div>} <p className="d-flex p-1">{error}</p>
         
         </div>
     )
